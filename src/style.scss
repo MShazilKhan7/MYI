@@ -21,11 +21,18 @@ $--primary: #ffff;
 $--secondary: #082A4D;
 $--hover: #1e4fc0;
 $--border: #f0f0f0;
+$--sidebar:  #F5F5F5;
+$--darkshade1: #404040;
+$--darkshade2: #212143;
+$--darkshade3: #9E9E9E;
 
+
+.signup,.login{
 a
 {
     font-size: medium;
     font-weight: 700;
+}
 }
 
 p
@@ -33,17 +40,20 @@ p
     font-size: medium;
 }
 
-a
-{
-    color: $--secondary;
-    text-decoration: none;
-    transition: 0.5s;
+.signup,.login {
+    a
+    {
+        color: $--secondary;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    a:hover
+    {
+        color: $--hover;
+    }
 }
 
-a:hover
-{
-    color: $--hover;
-}
+
 
 ::placeholder
 {
@@ -66,6 +76,7 @@ a:hover
 {
     color: $--hover;
 }
+
 
 .signup-form
 {
@@ -154,3 +165,11 @@ a:hover
     background-color: $--hover;
 }
 
+// dashboard sidebar
+
+
+.item:hover{
+    div{
+    color: black;
+    }
+}

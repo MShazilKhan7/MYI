@@ -6,7 +6,11 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 // import { fab } from '@fortawesome/free-solid-svg-icons';
 import { fab, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import App from './App.tsx'
+import './index.css'
 import "./style.scss";
+
+
+// import './tailwindcss'
 
 const rootElement = document.getElementById('root');
 library.add(fab, faInstagram, faGoogle);
