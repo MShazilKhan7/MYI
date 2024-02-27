@@ -40,11 +40,10 @@ let allItems:data[] = [{
 const Sidebar = ()=>{
     return(
         
-        <div className="sidebar h-screen w-[240px] bg-[#1D1E18]">
-            
+        <div className="sidebar h-screen w-[240px] bg-[#082A4D] ">
             <div className="items flex flex-col ">
                 {/* sidebar items here */}
-                <div className="main-heading w-full h-[45px] px-4 py-2 flex justify-center mb-4">
+                <div className="main-heading w-full h-[60px] px-4 py-2 flex items-center justify-center mb-3">
                     <h2 className="text-[28px] text-white tracking-[10px] font-bold">MYI</h2>
                 </div>
                 {allItems.map((item,index)=>{

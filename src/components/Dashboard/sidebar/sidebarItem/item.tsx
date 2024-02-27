@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { MdDashboard } from "react-icons/md";
 // {
     // !important
-//     :#F1FAEE,#C5D8D1,#F4EDEA,#12263A,#262730,#1D1E18,#DADAD9
+//     :#F1FAEE,#C5D8D1,#F4EDEA,#12263A,#262730,#1D1E18,#DADAD9,#1D1E18
 // }
 
 const Item = ({props}:any) => {
